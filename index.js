@@ -20,4 +20,4 @@ function wrapAdjective(string = '*'){
     return `You are ${string}${def}${string}`
   }
 }
-wrapAdjective('%')('dedicated programmer');
+wrapAdjective()('dedicated programmer');
