@@ -28,3 +28,4 @@ let Calculator= {
     return a+b;
   }
 }
+Calculator.add(1,3);
