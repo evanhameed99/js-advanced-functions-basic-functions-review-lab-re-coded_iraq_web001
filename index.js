@@ -49,7 +49,7 @@ if(arr.length ===0){
   return startingInt;
 }
 else{
-  let [mult,add,mod]=arr;
+   arr =let [mult,add,mod];
   startingInt = mult(startingInt);
   startingInt = add(startingInt);
   startingInt = mod(startingInt);
