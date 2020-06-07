@@ -17,7 +17,7 @@ mondayWork('work from home');
 function wrapAdjective(wrapper = '*'){
 
   return function (adjective = 'special'){
-    return `You are ${wrapper}${adjective}${wrapper}`
+    return `You are ${wrapper}${adjective}${wrapper}!`
   }
 }
 wrapAdjective()('a hard worker');
