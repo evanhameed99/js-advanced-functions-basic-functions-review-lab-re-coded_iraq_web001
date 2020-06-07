@@ -22,3 +22,5 @@ function wrapAdjective(wrapper = '*'){
 }
 wrapAdjective()('a hard worker');
 wrapAdjective('||')('dedicated programmer');
+
+let Calculator= {}
