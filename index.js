@@ -2,7 +2,7 @@
 
 function saturdayFun(activity = "roller-skate"){
 
-console.log( `This saturday I want to ${want}! `);
+console.log( `This saturday I want to ${activity}! `);
 
 }
 saturdayFun();
