@@ -43,7 +43,7 @@ Calculator.subtract(1,3);
 Calculator.multiply(1,3);
 Calculator.divide(10,5);
 
-arrayOfFunctions = [ function]
-function actionApplyer(startingInt , arr){
 
+function actionApplyer(startingInt , arr){
+if(arr.length ===0)
 }
