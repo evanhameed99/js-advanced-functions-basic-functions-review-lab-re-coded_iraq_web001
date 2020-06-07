@@ -49,6 +49,10 @@ if(arr.length ===0){
   return startingInt;
 }
 else{
-  
+  arr= [mult,add,mod];
+  stratingInt = arr.mult(startingInt);
+  stratingInt = arr.add(startingInt);
+  stratingInt = arr.add(startingInt);
+  return startingInt;
 }
 }
