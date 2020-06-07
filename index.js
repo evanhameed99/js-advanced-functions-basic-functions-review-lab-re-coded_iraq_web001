@@ -24,7 +24,7 @@ wrapAdjective()('a hard worker');
 wrapAdjective('||')('dedicated programmer');
 
 let Calculator= {
-  add: function(){
-    return 1+3;
+  add: function(a,b){
+    return a+b;
   }
 }
