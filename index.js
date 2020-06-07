@@ -17,6 +17,6 @@ mondayWork('work from home');
 function wrapAdjective(string = '*'){
 
   return function (def = 'special'){
-    return `You are ${}`
+    return `You are ${string def string}`
   }
 }
