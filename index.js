@@ -45,5 +45,7 @@ Calculator.divide(10,5);
 
 
 function actionApplyer(startingInt , arr){
-if(arr.length ===0)
+if(arr.length ===0){
+  return startingInt
+}
 }
