@@ -1,6 +1,6 @@
 // Your code here
 
-function saturdayFun(want = "roller-skate"){
+function saturdayFun(activity = "roller-skate"){
 
 return `This saturday I want to ${want}! `
 
