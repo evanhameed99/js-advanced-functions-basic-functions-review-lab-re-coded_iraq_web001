@@ -52,7 +52,7 @@ else{
   let [mult,add,mod]=arr;
   startingInt = mult(startingInt);
   startingInt = add(startingInt);
-  startingInt = add(startingInt);
+  startingInt = mod(startingInt);
   return startingInt;
 }
 }
