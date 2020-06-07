@@ -20,5 +20,5 @@ function wrapAdjective(wrapper = '*'){
     return `You are ${wrapper}${adjective}${wrapper}`
   }
 }
-wrapAdjective()();
+wrapAdjective()('a hard worker');
 wrapAdjective('||')('dedicated programmer');
