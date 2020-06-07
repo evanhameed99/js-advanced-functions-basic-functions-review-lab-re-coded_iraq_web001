@@ -6,4 +6,4 @@ return `This saturday I want to ${want}! `
 
 }
 saturdayFun();
-saturdayFun('')
+saturdayFun('bathe my dog')
