@@ -2,7 +2,8 @@
 
 function saturdayFun(want = "roller-skate"){
 
-return `This saturday I want ${want}! `
+return `This saturday I want to ${want}! `
 
 }
 saturdayFun();
+saturdayFun('')
