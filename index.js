@@ -50,9 +50,9 @@ if(arr.length ===0){
 }
 else{
   arr= [mult,add,mod];
-  stratingInt = arr.mult(startingInt);
-  stratingInt = arr.add(startingInt);
-  stratingInt = arr.add(startingInt);
+  stratingInt = mult(startingInt);
+  stratingInt = add(startingInt);
+  stratingInt = add(startingInt);
   return startingInt;
 }
 }
