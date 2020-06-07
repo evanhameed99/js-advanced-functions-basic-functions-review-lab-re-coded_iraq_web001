@@ -50,9 +50,9 @@ if(arr.length ===0){
 }
 else{
   let [mult,add,mod]=arr;
-  stratingInt = mult(startingInt);
-  stratingInt = add(startingInt);
-  stratingInt = add(startingInt);
+  startingInt = mult(startingInt);
+  startingInt = add(startingInt);
+  startingInt = add(startingInt);
   return startingInt;
 }
 }
