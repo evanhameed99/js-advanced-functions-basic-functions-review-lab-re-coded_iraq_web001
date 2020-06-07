@@ -21,3 +21,4 @@ function wrapAdjective(string = '*'){
   }
 }
 wrapAdjective()('dedicated programmer');
+wrapAdjective('||')('dedicated programmer');
