@@ -9,7 +9,7 @@ saturdayFun();
 saturdayFun('bathe my dog')
 
 let mondayWork = function (activity = 'go to the office'){
-  return `This Monday, I will ${activity} `
+  return `This Monday, I will ${activity}.`
 }
 mondayWork();
-mondayWork('workout')
+mondayWork('work from home');
