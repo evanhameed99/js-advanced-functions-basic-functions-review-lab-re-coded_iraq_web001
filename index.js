@@ -36,10 +36,9 @@ let Calculator= {
   divide: function(a,b){
     return a/b;
   }
-  
+
 }
 Calculator.add(1,3);
 Calculator.subtract(1,3);
 Calculator.multiply(1,3);
 Calculator.divide(10,5);
-
