@@ -14,7 +14,9 @@ let mondayWork = function (activity = 'go to the office'){
 mondayWork();
 mondayWork('work from home');
 
-function wrapAdjective(){
+function wrapAdjective(string = '*'){
 
-  
+  return function (def = 'special'){
+    return `You are ${}`
+  }
 }
